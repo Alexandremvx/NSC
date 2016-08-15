@@ -45,7 +45,7 @@ End Class
 Sub Window_onLoad
  Set objFSO=CreateObject("Scripting.FileSystemObject")
  Set objShell = CreateObject("WScript.Shell")
- objShell.CurrentDirectory = objFSO.GetFile(mid(document.url,8)).parentfolder
+ 'objShell.CurrentDirectory = objFSO.GetFile(mid(document.url,8)).parentfolder
  window.resizeTo 450,650
  document.title = IHW.applicationName & " Ver "& IHW.version
  document.getElementById("nomeRelatorio").value = formatName("Invent HW " & Now())
