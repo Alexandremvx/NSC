@@ -29,9 +29,9 @@ function builder (target) {
  var isIE = /*@cc_on!@*/false || !!document.documentMode;
  var hash = window.location.hash.replace(/\#/,'');
  var origin = window.location.href.replace(/\/[^\/]*$/,'');
- if (hash == '' && isIE) {
+ if (hash === '' && isIE) {
    window.location.assign("#HTA");
- }else if(hash != '') {
+ }else if(hash !== '') {
    var basesrc = origin + '/' + hash;
    var base = '<iframe id="ibuilder" src="' + basesrc + '.html"> </iframe>';
    target.innerHTML = base;
