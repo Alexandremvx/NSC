@@ -5,7 +5,7 @@ window.onload = main;
 function inIframe () {try {return window.self !== window.top;} catch (e) {return true;}}
 
 function main() {
- if (inIframe()){document.write = ''; return false;}
+ if (inIframe()){return false;}
  var A1 = document.getElementById('A1');
  var A2 = document.getElementById('A2');
  //initial messages//
