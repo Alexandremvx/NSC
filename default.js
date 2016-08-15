@@ -13,7 +13,7 @@ function main() {
  builder(A2);
  //timers//
  t1 = setInterval(function(){updater(A1)}, 1000);
- t2 = setInterval(function(){builder(A2)}, 5000);
+ //t2 = setInterval(function(){builder(A2)}, 5000);//refresh Disabled for test reasons
  
 }
 
