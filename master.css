@@ -1,0 +1,9 @@
+ body {
+   width: 40em;
+   margin: 0 auto;
+   font-family: 'Open Sans', sans-serif , Tahoma, Verdana, Arial, sans-serif;
+ }
+
+.fRight {
+   float: right;
+ }

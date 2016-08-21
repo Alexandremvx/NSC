@@ -1,0 +1,26 @@
+ body {
+   width: 40em;
+   margin: 0 auto;
+   font-family: 'Open Sans', sans-serif , Tahoma, Verdana, Arial, sans-serif;
+ }
+
+.fRight {
+   float: right;
+ }
+
+#nsConsole{
+  background-color: #CFF;
+  display: block;
+  width:100%;
+}
+
+#nsConsoleOut{
+  width:100%;
+  overflow:auto;
+}
+
+#nsConsoleCmd{
+  margin: 0 auto;
+  width:100%;
+  border: 0;
+}
